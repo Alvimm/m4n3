@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ccc</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="splashColor">#345C4C</color>
+    <color name="textColor">#ccc</color>
+    <color name="backgroundColor">#345C4C</color>
 </resources>
 
 

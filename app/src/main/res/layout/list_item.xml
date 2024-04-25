@@ -3,9 +3,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:textSize="18sp"
-        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
         android:fontFamily="serif-monospace"
+        android:textFontWeight="700"
         android:gravity="center" />
 
 
