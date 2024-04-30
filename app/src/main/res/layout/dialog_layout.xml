@@ -32,13 +32,17 @@
             android:text="Sim"
             android:fontFamily="serif-monospace"
             android:textFontWeight="700"
+            android:textColor="@color/textColor"
+            android:background="?android:attr/selectableItemBackground"
             />
 
         <Button
             android:id="@+id/dialog_negative_button"
             android:layout_width="60dp"
             android:layout_height="50dp"
+            android:background="?android:attr/selectableItemBackground"
             android:text="Não"
+            android:textColor="@color/textColor"
             android:fontFamily="serif-monospace"
             android:textFontWeight="700"/>
     </LinearLayout>
