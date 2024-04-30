@@ -21,14 +21,21 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        val items = arrayOf("Item 1", "Item 2", "Item 3", "Item 4", "Item 5")
+        val messages = mapOf(
+            "Filipe" to "Reunião às 10 horas amanhã",
+            "João" to "Entrega do projeto na sexta-feira",
+            "José" to "Me liga depois",
+            "Gabriel" to "PR para revisar",
+            "Pedro" to "Fechar contrato com a empresa X"
+        )
         val listView = findViewById<ListView>(R.id.listView)
-        val adapter = ArrayAdapter(this, R.layout.list_item, items)
+        val adapter = ArrayAdapter(this, R.layout.list_item, messages.keys.toList())
         listView.adapter = adapter
 
         listView.setOnItemClickListener { _, _, position, _ ->
-            val text = items[position]
-            textToSpeech.speak(text, TextToSpeech.QUEUE_FLUSH, null, "")
+            val name = messages.keys.elementAt(position)
+            val message = messages[name]
+            textToSpeech.speak("Ouvindo a mensagem de $name: $message", TextToSpeech.QUEUE_FLUSH, null, "")
         }
     }
 
