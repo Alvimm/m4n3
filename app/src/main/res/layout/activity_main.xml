@@ -5,6 +5,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif-monospace"
+        android:textFontWeight="700"
+        android:layout_centerHorizontal="true"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,6 +27,7 @@
             android:id="@+id/messages_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/message_btn"
             android:src="@drawable/messages_icon"
             android:layout_marginEnd="30dp"
             android:background="?android:attr/selectableItemBackground"/>
@@ -24,6 +36,24 @@
             android:id="@+id/notifications_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/notifications_btn"
             android:src="@drawable/notifications_icon"
             android:background="?android:attr/selectableItemBackground" />
-    </LinearLayout></RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/secondaryBackgroundColor"
+        android:layout_alignParentBottom="true">
+    <ImageButton
+        android:id="@+id/mic_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:contentDescription="@string/mic_btn"
+        android:src="@drawable/mic_icon"
+        android:background="?android:attr/selectableItemBackground"/>
+    </LinearLayout>
+</RelativeLayout>
