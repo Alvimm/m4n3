@@ -29,7 +29,7 @@
             android:id="@+id/dialog_positive_button"
             android:layout_width="60dp"
             android:layout_height="50dp"
-            android:text="Sim"
+            android:text="@string/yes_btn"
             android:fontFamily="serif-monospace"
             android:textFontWeight="700"
             android:textColor="@color/textColor"
@@ -41,7 +41,7 @@
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:background="?android:attr/selectableItemBackground"
-            android:text="Não"
+            android:text="@string/no_btn"
             android:textColor="@color/textColor"
             android:fontFamily="serif-monospace"
             android:textFontWeight="700"/>

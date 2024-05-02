@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Doma</string>
+    <string name="message_btn">Botão de mensagens</string>
+    <string name="notifications_btn">Botão de notificações</string>
+    <string name="yes_btn">Sim</string>
+    <string name="no_btn">Não</string>
+    <string name="mic_btn">Botão de microfone</string>
 </resources>

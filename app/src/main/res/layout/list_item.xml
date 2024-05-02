@@ -6,7 +6,7 @@
         android:textSize="20sp"
         android:textColor="@color/textColor"
         android:fontFamily="serif-monospace"
-        android:textFontWeight="700"
+        android:textFontWeight="500"
         android:gravity="center" />
 
 
