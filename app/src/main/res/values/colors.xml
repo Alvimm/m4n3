@@ -2,7 +2,7 @@
 <resources>
     <color name="textColor">#ccc</color>
     <color name="backgroundColor">#345C4C</color>
-    <color name="secondaryBackgroundColor">#3ABC88</color>
+    <color name="secondaryBackgroundColor">#076E45</color>
     <color name="alert">#CDCD34</color>
 </resources>
 
