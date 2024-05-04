@@ -37,11 +37,13 @@ necessidades especiais, uma forma de solidificar a interação entre os mesmos. 
 
 
 
-<!-- ## Screenshots
+## Screenshots
 
 <div style="display: flex; justify-content: center;">
-  <img src=""/>
-</div>  -->
+    <img src="./app/src/main/res/assets/images/home.png"/>
+    <img src="./app/src/main/res/assets/images/messages.png"/>
+    <img src="./app/src/main/res/assets/images/notifications.png"/>
+</div>  
 
 
 
