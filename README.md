@@ -2,7 +2,7 @@
 
 
 
-# Explore Mundo App
+# Doma App
 
 Para uma melhoria na eficiência e na comunicação interna, a empresa “Doma” quer
 desenvolver um aplicativo Wear OS para assistência aos funcionários que têm
